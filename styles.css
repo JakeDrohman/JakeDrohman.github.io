@@ -4,8 +4,13 @@
 }
 .nav{
 	padding-right:10px;
+	padding-left:10px;
 	border-style:solid;
 	border-color:red;
 	background-color:blue;
 	color:white;
+}
+#homepage{
+	max-width:750px;
+	max-height:750px;
 }
