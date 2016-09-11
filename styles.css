@@ -1,5 +1,5 @@
 .navbar{
-	float:right;
+	float:top;
 	padding-right:20px;
 	background-color:blue;
 	padding-left:20px;
@@ -27,5 +27,5 @@ p{
 }
 #JakeDrohman{
 	font-size: 42px
-	
+
 }
