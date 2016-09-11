@@ -7,11 +7,20 @@
 		<body>
 			<div class="container">
 				<div class="row">
-					<h1>Contact me</h1>
+					<h1>Contact me (does not work, still under construction)</h1>
 				</div>
 				<div class="row">
-					<form action="mailto:Jkdrohman@gmail.com">
-						<fieldset>
-							<
+					<form action="contactme.php" method="POST">
+							<h3>Complete and click send</h3>
+							Your Name<br>
+							<input name="name" type="text"><br>
+							Your E-mail<br>
+							<input name="email" type="text"><br>
+							Your Message<br>
+							<textarea name="message"></textarea><br>
+							<input type="submit" name="submit" value="Send">
+							<input type="reset" value="Clear">
+					</form>
+				</div>
 		</body>
 	</html>
